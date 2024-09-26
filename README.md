@@ -1,7 +1,23 @@
-# Tauri + Vanilla
+# WhatsTux
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.
+## Minimalistic WhatsApp Destkop Emulator for Linux
 
-## Recommended IDE Setup
+> Lets you run the [web version of WhatsApp](https://web.whatsapp.com) on you local machine 
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+
+---
+### To install run:
+
+````
+npm install
+````
+
+### Run project in dev:
+````
+npm run tauri dev
+````
+
+### Run project in build:
+````
+npm run tauri build
+````
