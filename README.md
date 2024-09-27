@@ -1,9 +1,10 @@
 # WhatsTux
 
-## Lightwieight WhatsApp Destkop Emulator for Linux
+## Lightweight WhatsApp Destkop Emulator for Linux
 
-> Use the [Web version of WhatsApp](https://web.whatsapp.com) as very lightweight Desktop App.  
+Use the [Web version of WhatsApp](https://web.whatsapp.com) as very lightweight Desktop App.  
 
+> Packages Coming soon!
 
 ---
 ### Installation:
