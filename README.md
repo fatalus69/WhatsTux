@@ -1,23 +1,23 @@
 # WhatsTux
 
-## Minimalistic WhatsApp Destkop Emulator for Linux
+## Lightwieight WhatsApp Destkop Emulator for Linux
 
-> Lets you run the [web version of WhatsApp](https://web.whatsapp.com) on you local machine 
+> Use the [Web version of WhatsApp](https://web.whatsapp.com) as very lightweight Desktop App.  
 
 
 ---
-### To install run:
+### Installation:
 
 ````
 npm install
-````
 
-### Run project in dev:
-````
 npm run tauri dev
 ````
 
-### Run project in build:
+### Build:
+
 ````
+$ cp -r src/* dist/
+
 npm run tauri build
 ````

@@ -1,8 +1,8 @@
 [package]
-name = "whatstux"
+name = "WhatsTux"
 version = "0.1.0"
 description = "WhatsApp Emulator for Linux"
-authors = ["you"]
+authors = ["https://www.github.com/fatalus69"]
 edition = "2021"
 
 
@@ -10,9 +10,10 @@ edition = "2021"
 tauri-build = { version = "1", features = [] }
 
 [dependencies]
-tauri = { version = "1", features = ["shell-open"] }
+tauri = { version = "1", features = [ "clipboard-all", "notification-all", "shell-open"] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
+tauri-bundler = "1.7.0"
 
 [features]
 custom-protocol = ["tauri/custom-protocol"]
